@@ -1,5 +1,5 @@
 from httpx import AsyncClient
-from conftest import fastapi_cache
+
 
 async def test_corr_add_to_catalog(a_client: AsyncClient):
     response = await a_client.post("/catalog", json={

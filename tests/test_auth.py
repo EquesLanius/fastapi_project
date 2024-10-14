@@ -1,4 +1,4 @@
-from conftest import client, async_session_maker
+from conftest import client
 
 
 

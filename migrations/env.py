@@ -17,7 +17,7 @@ from src.database import metadata
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
-#sys.path.insert(0, os.getcwd())
+
 sys.path.append(os.path.join(sys.path[0], "src"))
 
 config = context.config

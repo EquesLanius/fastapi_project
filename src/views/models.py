@@ -1,4 +1,4 @@
-from sqlalchemy import MetaData, Integer, String, Table, Column, ForeignKey, Date, Boolean
+from sqlalchemy import Integer, String, Table, Column, ForeignKey, Date, Boolean
 from auth.models import user
 #from src.auth.models import User
 
